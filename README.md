@@ -31,9 +31,9 @@ Instantiate like any other view and customize it as needed:
     
     CGRect frame = CGRectMake(0, 0, 200, 200);
     CHCircleGaugeView *circleGaugeView = [[CHCircleGaugeView alloc] initWithFrame:frame];
-    [self.view addSubView:circleGaugeView];
+    [self.view addSubview:circleGaugeView];
     
-    [circleGauge setValue:0.5 animated:YES];
+    [circleGaugeView setValue:0.5 animated:YES];
 }
 ```
 
